@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanchard</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="header-hero__wrapper">
+
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header-top__wrapper">
+          <div class="container header-top__container flex">
+            <a href="#section-about" class="header-top__logo">
+              <img src="img/header__logo--1920.png" class="header-top__logo" alt="Logo">
+            </a>
+            <nav class="header-top__nav">
+              <ul class="header-top__list list-reset flex">
+                <li class="header-top__item"><a href="#section-about" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">О нас</span></span></a></li>
+                <li class="header-top__item"><a href="#section-gallery" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">Галерея</span></span></a></li>
+                <li class="header-top__item"><a href="#section-catalog" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">Каталог</span></span></a></li>
+                <li class="header-top__item"><a href="#section-events" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">События</span></span></a></li>
+                <li class="header-top__item"><a href="#section-editions" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">Издания</span></span></a></li>
+                <li class="header-top__item"><a href="#section-projects" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">Проекты</span></span></a></li>
+                <li class="header-top__item"><a href="#section-contacts" class="header-top__link"><span class="header-top__link-wrap"><span class="header-top__link-text">Контакты</span></span></a></li>
+              </ul>
+            </nav>
+            <button class="btn-reset header-top__enter-btn header-btn" aria-label="Войти">
+              <span class="header-btn__content-wrap">
+                <span class="header-btn__span">
+                  <svg class="header-btn__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="header-btn__icon-path" d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" fill="white"/>
+                  </svg>
+                </span>
+                <span class="header-btn__text">
+                  Войти
+                </span>
+              </span>
+            </button>
+            <button class="btn-reset header-top__burger-btn focus-effect">
+              <span class="header-top__burger-span">
+                <svg class="header-top__burger-icon" width="36" height="29" viewBox="0 0 36 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="36" height="3.65217" transform="matrix(-1 0 0 1 36 0.699951)" fill="white"/>
+                  <path d="M28.2002 12.8739H0.00019455V16.5261H28.2002V12.8739Z" fill="white"/>
+                  <path d="M24 25.0477H0V28.6999H24V25.0477Z" fill="white"/>
+                </svg>
+              </span>
+            </button>
+            <button class="btn-reset header-top__burger-close header-burger__close-btn">
+              <span class="header-burger__close-span">
+                <svg class="header-burger__close-icon" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2.63623" width="37.2838" height="3.72838" transform="rotate(45 2.63623 0)" fill="white"/>
+                  <rect y="26.3636" width="37.2838" height="3.72838" transform="rotate(-45 0 26.3636)" fill="white"/>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="header__bottom-wrapper">
+          <div class="container header-bottom__container">
+            <div class="header-bottom__container-inner flex">
+              <ul class="header-bottom__list list-reset flex">
+                <li class="header-bottom__item">
+                  <button class="header-bottom__item-btn" data-path="realism">
+                    <strong class="header-bottom__item-title">Реализм</strong>
+                    <span class="header-bottom__item-icon"></span>
+                  </button>
+                  <div class="header-bottom__dropdown" data-target="realism">
+                    <div class="header-bottom__dropdown-wrap" data-simplebar>
+                      <ul class="header-bottom__drop-list">
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-tintoretto"><span class="header-bottom__item-text">Тинторрето</span></a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-fridrih">Фридрих</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-leonardo">Леонардо</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-verrocchio">Верроккьо</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-bottom__item">
+                  <button class="header-bottom__item-btn" data-path="impressionism">
+                    <strong class="header-bottom__item-title">Импрессионизм</strong>
+                    <span class="header-bottom__item-icon"></span>
+                  </button>
+                  <div class="header-bottom__dropdown" data-target="impressionism">
+                    <div class="header-bottom__dropdown-wrap" data-simplebar>
+                      <ul class="header-bottom__drop-list">
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-monet"><span class="header-bottom__item-text">Моне</span></a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-sisley">Сислей</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-mane">Мане</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-renoir">Ренуар</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-bottom__item">
+                  <button class="header-bottom__item-btn" data-path="post-impressionism">
+                    <strong class="header-bottom__item-title">Постимпрессионизм</strong>
+                    <span class="header-bottom__item-icon"></span>
+                  </button>
+                  <div class="header-bottom__dropdown" data-target="post-impressionism">
+                    <div class="header-bottom__dropdown-wrap" data-simplebar>
+                      <ul class="header-bottom__drop-list">
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-vangogh"><span class="header-bottom__item-text">Ван Гог</span></a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-cezanne">Сезанн</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-gauguin">Гоген</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-seurat">Сёра</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-bottom__item">
+                  <button class="header-bottom__item-btn" data-path="vanguard">
+                    <strong class="header-bottom__item-title">Авангард</strong>
+                    <span class="header-bottom__item-icon"></span>
+                  </button>
+                  <div class="header-bottom__dropdown" data-target="vanguard">
+                    <div class="header-bottom__dropdown-wrap" data-simplebar>
+                      <ul class="header-bottom__drop-list">
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-kandinsky"><span class="header-bottom__item-text">Кандинский</span></a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-marinetti">Маринетти</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-malevich">Малевич</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-picasso">Пикассо</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="header-bottom__item">
+                  <button class="header-bottom__item-btn" data-path="futurism">
+                    <strong class="header-bottom__item-title">Футуризм</strong>
+                    <span class="header-bottom__item-icon"></span>
+                  </button>
+                  <div class="header-bottom__dropdown" data-target="futurism">
+                    <div class="header-bottom__dropdown-wrap" data-simplebar>
+                      <ul class="header-bottom__drop-list">
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-carra"><span class="header-bottom__item-text">Карра</span></a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-pratella">Прателла</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-severini">Северини</a></li>
+                        <li class="header-bottom__dropdown-item"><a href="#" class="header-bottom__item-link header-bottom__item-balla">Балла</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <form action="#" id="header-bottom__form" class="header-bottom__form header-form flex">
+                <button aria-label="Поиск" class="btn-reset header-form__btn">
+                  <svg class="header-form__btn-icon" width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="6.8678" height="1.71695" transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" fill="white"/>
+                  </svg>
+                </button>
+                <label class="header-form__label">
+                  <span class="visually-hidden">Введите что будем искать</span>
+                  <input type="text" class="header-form__input" name="search" placeholder="Поиск по сайту">
+                </label>
+                <button class="btn-reset header-bottom__search-close search-close__btn focus-effect">
+                  <span class="search-close__btn-span">
+                    <svg class="search-close__btn-icon" width="24" height="24" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="2.63623" width="37.2838" height="3.72838" transform="rotate(45 2.63623 0)" fill="white"/>
+                      <rect y="26.3636" width="37.2838" height="3.72838" transform="rotate(-45 0 26.3636)" fill="white"/>
+                    </svg>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-hero">
+      <div class="section-hero__swiper">
+        <div class="swiper-wrapper section-hero__swiper-wrapper">
+          <div class="swiper-slide section-hero__swiper-slide section-hero__swiper-slide--001"></div>
+          <!-- <div class="swiper-slide section-hero__swiper-slide section-hero__swiper-slide--002"></div>
+          <div class="swiper-slide section-hero__swiper-slide section-hero__swiper-slide--003"></div> -->
+        </div>
+      </div>
+
+      <div class="container section-hero__container">
+        <div class="section-hero__wrapper">
+          <h1 class="section-hero__title title-reset">
+            Прикоснитесь к прекрасному
+          </h1>
+          <p class="section-hero__descr">
+            Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
+          </p>
+          <button aria-label="Подписаться на рассылку" class="section-hero__btn btn-reset">
+            Подписаться на рассылку
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <main class="main">
+
+    <section id="section-about" class="section-about">
+      <div class="container">
+        <div class="section-about__wrapper">
+          <h2 class="section-about__title title-reset">
+            О нас
+          </h2>
+          <p class="section-about__descr">
+            Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность среди определенных слоев населения, а значит, должны быть разоблачены.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-gallery" class="section-gallery">
+      <div class="container section-gallery__container">
+        <div class="section-gallery__content-wrap flex">
+          <div class="section-gallery__left-col section__left-col">
+            <h2 class="section-gallery__title title-reset">Галерея</h2>
+            <h3 class="section-gallery__subtitle title-reset">Фильтр:</h3>
+            <select class="section-gallery__dropdown" name="actSelect" aria-required="true" onChange="Selected(this)">
+              <option value="painting">Живопись</option>
+              <option value="drawing">Рисунок</option>
+              <option value="sculpture">Скульптура</option>
+            </select>
+          </div>
+          <div class="section-swiper section-gallery__swiper-container">
+            <div class="swiper-container section-gallery__slides-container" id="section-gallery__painting-item">
+              <div class="section-gallery__navigation">
+                <button class="nav-btn prev-btn section-gallery__prev-btn" aria-label="К предыдущему слайду"></button>
+                <div class="section-gallery__pagination"></div>
+                <button class="nav-btn next-btn section-gallery__next-btn" aria-label="К следующему слайду"></button>
+              </div>
+              <div class="swiper-wrapper section-gallery__swiper">
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-02--1024.jpg" media="(min-width: 1024px) and (max-width: 1919)">
+                    <source srcset="img/section-gallery__pic-02--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source srcset="img/section-gallery__pic-02--320.jpg" media="(max-width: 767px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-02--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-01--1024.jpg" media="(min-width: 1024px) and (max-width: 1919)">
+                    <source srcset="img/section-gallery__pic-01--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source srcset="img/section-gallery__pic-01--320.jpg" media="(max-width: 767px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-01--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-05--1024.jpg" media="(min-width: 1024px) and (max-width: 1919)">
+                    <source srcset="img/section-gallery__pic-05--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source srcset="img/section-gallery__pic-05--320.jpg" media="(max-width: 767px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-05--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-06--1024.jpg" media="(min-width: 1024px) and (max-width: 1919)">
+                    <source srcset="img/section-gallery__pic-06--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source srcset="img/section-gallery__pic-06--320.jpg" media="(max-width: 767px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-06--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-09--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-09--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-09--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-09--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-10--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-10--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-10--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-10--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-03--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-03--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-03--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-03--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-04--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-04--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-04--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-04--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-07--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-07--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-07--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-07--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-08--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-08--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-08--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-08--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-11--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-11--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-11--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-11--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__painting-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-12--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-12--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-12--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-12--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-container section-gallery__slides-container" id="section-gallery__drawing-item" style="visibility: hidden;">
+              <div class="section-gallery__navigation">
+                  <button class="nav-btn prev-btn section-gallery__prev-btn" aria-label="К предыдущему слайду"></button>
+                  <div class="section-gallery__pagination"></div>
+                  <button class="nav-btn next-btn section-gallery__next-btn" aria-label="К следующему слайду"></button>
+              </div>
+              <div class="swiper-wrapper section-gallery__swiper">
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-13--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-13--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-13--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-13--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-14--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-14--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-14--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-14--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-15--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-15--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-15--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-15--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-16--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-16--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-16--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-16--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-17--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-17--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-17--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-17--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__drawing-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-18--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-18--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-18--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-18--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-container section-gallery__slides-container" id="section-gallery__sculpture-item" style="visibility: hidden;">
+              <div class="section-gallery__navigation">
+                  <button class="nav-btn prev-btn section-gallery__prev-btn" aria-label="К предыдущему слайду"></button>
+                  <div class="section-gallery__pagination"></div>
+                  <button class="nav-btn next-btn section-gallery__next-btn" aria-label="К следующему слайду"></button>
+              </div>
+              <div class="swiper-wrapper section-gallery__swiper">
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-19--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-19--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-19--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-19--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-20--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-20--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-20--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-20--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-21--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-21--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-21--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-21--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-22--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-22--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-22--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-22--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-23--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-23--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-23--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-23--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+                <a class="swiper-slide section-gallery__slide section-gallery__sculpture-item" href="#">
+                  <picture class="section-gallery__slide-picture">
+                    <source srcset="img/section-gallery__pic-24--1024.jpg" media="(max-width: 1024px)">
+                    <source srcset="img/section-gallery__pic-24--768.jpg" media="(max-width: 768px)">
+                    <source srcset="img/section-gallery__pic-24--320.jpg" media="(max-width: 320px)">
+                    <img class="section-gallery__image" src="img/section-gallery__pic-24--1920.jpg" alt="pic">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section-gallery__last">
+            <div class="section-gallery__last-content section-gallery__left-col">
+              <p class="section-gallery__descr">Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества скачиваний <a href="#" class="section-gallery__descr-link"><span class="section-gallery__link-span"> авторизуйтесь,</span></a> либо воспользуйтесь лицензией. </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section-catalog" class="section-catalog">
+      <div class="container section-catalog__container">
+        <div class="section-catalog__title-wrapper flex">
+          <h2 class="section-catalog__title title-reset">Каталог</h2>
+          <ul class="section-catalog__title-list list-reset flex">
+            <li class="section-catalog__title-item">
+              <button aria-label="Художники Франции" class="section-catalog__title-btn btn-reset" data-path="france">
+                <img class="section-catalog__title-img" src="img/section-catalog__france--1920.svg" alt="flag picture">
+              </button>
+            </li>
+            <li class="section-catalog__title-item">
+              <button aria-label="Художники Германии" class="section-catalog__title-btn btn-reset" data-path="germany">
+                <img class="section-catalog__title-img" src="img/section-catalog__germany--1920.svg" alt="flag picture">
+              </button>
+            </li>
+            <li class="section-catalog__title-item">
+              <button aria-label="Художники Италии" class="section-catalog__title-btn btn-reset section-catalog__title-btn--active" data-path="italy">
+                <img class="section-catalog__title-img" src="img/section-catalog__italy--1920.svg" alt="flag picture">
+              </button>
+            </li>
+            <li class="section-catalog__title-item">
+              <button aria-label="Художники России" class="section-catalog__title-btn btn-reset" data-path="russia">
+                <img class="section-catalog__title-img" src="img/section-catalog__russia--1920.svg" alt="flag picture">
+              </button>
+            </li>
+            <li class="section-catalog__title-item">
+              <button aria-label="Художники Бельгии" class="section-catalog__title-btn btn-reset" data-path="belgium">
+                <img class="section-catalog__title-img" src="img/section-catalog__belgium--1920.svg" alt="flag picture">
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <p class="section-catalog__descr">
+          Акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на независимые элементы.
+        </p>
+
+        <div class="section-catalog__content catalog-content flex">
+          <div class="catalog-content__column catalog-content__left-column">
+            <div class="catalog-content__painter-wrapper catalog-content__painter-wrapper--active" data-target="domenico-ghirlandaio">
+              <img class="catalog-content__painter-image" src="img/section-catalog__domenico-ghirlandaio--1920.jpg" alt="pic">
+              <h3 class="catalog-content__painter-title title-reset">Доменико Гирландайо</h3>
+              <p class="catalog-content__painter-descr">2 июня 1448 — 11 января 1494.</p>
+              <p class="catalog-content__painter-text">
+                Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени).
+              </p>
+            </div>
+
+            <div class="catalog-content__painter-wrapper" data-target="painter-plug">
+              <img class="catalog-content__painter-image" src="img/section-catalog__painter-plug--1920.png" alt="plug">
+              <h3 class="catalog-content__painter-title--plug title-reset">Что мы о нём знаем?</h3>
+              <p class="catalog-content__painter-text--plug">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+              <a class="catalog-content__painter-link--plug focus-effect" href="#section-gallery"><span>В галерею</span></a>
+            </div>
+          </div>
+
+          <div class="catalog-content__column catalog-content__right-column">
+            <div class="catalog-content__country-wrapper catalog-content__country-wrapper--active" data-target="italy">
+              <ul class="catalog-content__accordion catalog-accordion accordion list-reset">
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1400 по 1499 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <ul class="catalog-accordion__content-list list-reset">
+                      <li class="catalog-accordion__content-item"><button aria-label="Бенедетто ди Биндо" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Бенедетто ди Биндо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Амброджо Бергоньоне" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Бергоньоне, Амброджо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Франческо Биссоло" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Биссоло, Франческо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Джованни Больтраффио" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Больтраффио, Джованни</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Франческо Бонсиньори" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Бонсиньори, Франческо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Рафаэлло Боттичини" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Боттичини, Рафаэлло</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Брамантино" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Брамантино</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Людовико Бреа" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Бреа, Людовико</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Бьяджо д'Антонио Туччи" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Бьяджо д'Антонио Туччи</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Веккьетта" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Веккьетта</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Андреа Верроккьо" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Андреа Верроккьо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Доменико Гирландайо" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="domenico-ghirlandaio"><span class="catalog-accordion__content-span">Доменико Гирландайо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Беноццо Гоццоли" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Беноццо Гоццоли</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Франческо Граначчи" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Граначчи, Франческо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Грегорио ди Чекко" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Грегорио ди Чекко</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Джованни да Удине" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Джованни да Удине</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Джованни ди Паоло" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Джованни ди Паоло</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Джорджоне" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Джорджоне</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Парентино, Бернардо" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Парентино, Бернардо</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Пезеллино" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Пезеллино</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Пьетро Перуджино" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Пьетро Перуджино</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Бальдассаре Перуцци" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Перуцци, Бальдассаре</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Пизанелло" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Пизанелло</span></button></li>
+                      <li class="catalog-accordion__content-item"><button aria-label="Пинтуриккьо" class="catalog-accordion__content-btn btn-reset focus-effect" data-path="painter-plug"><span class="catalog-accordion__content-span">Пинтуриккьо</span></button></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1500 по 1599 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1600 по 1699 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1700 по 1799 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1800 по 1899 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1900 по 1999 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 2000 г.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="catalog-content__country-wrapper" data-target="catalog-plug">
+              <ul class="catalog-content__accordion catalog-accordion accordion list-reset">
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1400 по 1499 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1500 по 1599 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1600 по 1699 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1700 по 1799 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1800 по 1899 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 1900 по 1999 гг.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="catalog-accordion__item">
+                  <h3 class="catalog-accordion__title flex">
+                    <span class="catalog-accordion__title-wrapper focus-effect">
+                      <span class="catalog-accordion__title-text">C 2000 г.</span>
+                    </span>
+                    <svg class="catalog-accordion__icon" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="catalog-accordion__icon-round" d="M49 25C49 11.7452 38.2548 1.00001 25 1.00001C11.7452 1.00001 1 11.7452 1 25C1 38.2548 11.7452 49 25 49C38.2548 49 49 38.2548 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2" />
+                      <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </h3>
+                  <div class="catalog-accordion__content">
+                    <div class="catalog-accordion__content-plug catalog-plug flex">
+                      <div class="catalog-plug__img-wrapper">
+                        <div class="catalog-plug__img-container"></div>
+                      </div>
+                      <div class="catalog-plug__descr-wrapper">
+                        <p class="catalog-plug__descr-title">Здесь пока пусто</p>
+                        <p class="catalog-plug__descr-text">А в галерее вы всегда можете найти что-то интересное для себя</p>
+                        <a class="catalog-plug__descr-link focus-effect" href="#section-gallery"><span class="catalog-plug__link-span">В галерею</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-events" class="section-events">
+      <div class="container section-events__container">
+        <h2 class="section-events__title title-reset">События</h2>
+        <div class="section-events__sliders-wrapper flex wrapper">
+          <div class="section-events__slider slider js-slider">
+            <ul class="section-events__slider-list list-reset flex slides-wrap js-slides-wrap">
+              <li class="slide section-events__slide-item">
+                <div class="section-events__img-wrapper">
+                  <picture class="section-events__item-picture">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-01--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-01--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-01--320.jpg" media="(max-width: 767px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-01--1920.jpg">
+                    <img class="section-events__item-pic" src="img/section-events__pic-01--1920.jpg" alt="pic">
+                  </picture>
+                </div>
+                <div class="section-events__content-wrapper events-content events-content__wrapper flex">
+                  <div class="events-content__inner flex">
+                    <div class="events-content__aside-wrapper flex">
+                      <p class="events-content__aside events-content__aside-top">Музей им. Щусева</p>
+                      <p class="events-content__aside events-content__aside-bottom">с 20 марта по 30 апреля</p>
+                    </div>
+                    <h3 class="events-content__subtitle">Книжная гравюра в живом восприятии</h3>
+                    <p class="events-content__text">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                  </div>
+                  <a class="events-content__link focus-effect" href="#"><span class="events-content__link-span">Подробнее</span></a>
+                </div>
+              </li>
+
+              <li class="slide section-events__slide-item">
+                <div class="section-events__img-wrapper">
+                  <picture class="section-events__item-picture">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-02--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-02--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-02--320.jpg" media="(max-width: 767px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-02--1920.jpg">
+                    <img class="section-events__item-pic" src="img/section-events__pic-02--1920.jpg" alt="pic">
+                  </picture>
+                </div>
+                <div class="section-events__content-wrapper events-content events-content__wrapper flex">
+                  <div class="events-content__inner flex">
+                    <div class="events-content__aside-wrapper flex">
+                      <p class="events-content__aside events-content__aside-top">ММОМА</p>
+                      <p class="events-content__aside events-content__aside-bottom">24 марта 19:00</p>
+                    </div>
+                    <h3 class="events-content__subtitle">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+                    <p class="events-content__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта.</p>
+                  </div>
+                  <a class="events-content__link focus-effect" href="#"><span class="events-content__link-span">Подробнее</span></a>
+                </div>
+              </li>
+
+              <li class="slide section-events__slide-item">
+                <div class="section-events__img-wrapper">
+                  <picture class="section-events__item-picture">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-03--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-03--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-03--320.jpg" media="(max-width: 767px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-03--1920.jpg">
+                    <img class="section-events__item-pic" src="img/section-events__pic-03--1920.jpg" alt="pic">
+                  </picture>
+                </div>
+                <div class="section-events__content-wrapper events-content events-content__wrapper flex">
+                  <div class="events-content__inner flex">
+                    <div class="events-content__aside-wrapper flex">
+                      <p class="events-content__aside events-content__aside-top">Еврейский музей</p>
+                      <p class="events-content__aside events-content__aside-bottom">с 31 марта по 21 апреля</p>
+                    </div>
+                    <h3 class="events-content__subtitle">Выставка «Формация 2020»</h3>
+                    <p class="events-content__text">Идейные соображения высшего порядка, а также современная методология разработки играет важную роль в формировании глубокомысленных рассуждений.</p>
+                  </div>
+                  <a class="events-content__link focus-effect" href="#"><span class="events-content__link-span">Подробнее</span></a>
+                </div>
+              </li>
+
+              <li class="slide section-events__slide-item">
+                <div class="section-events__img-wrapper">
+                  <picture class="section-events__item-picture">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-04--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-04--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-04--320.jpg" media="(max-width: 767px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-04--1920.jpg">
+                    <img class="section-events__item-pic" src="img/section-events__pic-04--1920.jpg" alt="pic">
+                  </picture>
+                </div>
+                <div class="section-events__content-wrapper events-content events-content__wrapper flex">
+                  <div class="events-content__inner flex">
+                    <div class="events-content__aside-wrapper flex">
+                      <p class="events-content__aside events-content__aside-top">Третьяковка на Крымском валу</p>
+                      <p class="events-content__aside events-content__aside-bottom">с 30 марта по 30 апреля</p>
+                    </div>
+                    <h3 class="events-content__subtitle">XXIV Международная биеннале молодого искусства</h3>
+                    <p class="events-content__text">Внезапно, реплицированные с зарубежных источников, современные исследования.</p>
+                  </div>
+                  <a class="events-content__link focus-effect" href="#"><span class="events-content__link-span">Подробнее</span></a>
+                </div>
+              </li>
+
+              <li class="slide section-events__slide-item">
+                <div class="section-events__img-wrapper">
+                  <picture class="section-events__item-picture">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-05--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-05--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-05--320.jpg" media="(max-width: 767px)">
+                    <source class="section-events__item-pic" srcset="img/section-events__pic-05--1920.jpg">
+                    <img class="section-events__item-pic" src="img/section-events__pic-05--1920.jpg" alt="pic">
+                  </picture>
+                </div>
+                <div class="section-events__content-wrapper events-content events-content__wrapper flex">
+                  <div class="events-content__inner flex">
+                    <div class="events-content__aside-wrapper flex">
+                      <p class="events-content__aside events-content__aside-top">ММАМ</p>
+                      <p class="events-content__aside events-content__aside-bottom">с 8 апреля по 20 мая</p>
+                    </div>
+                    <h3 class="events-content__subtitle">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+                    <p class="events-content__text">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                  </div>
+                  <a class="events-content__link focus-effect" href="#"><span class="events-content__link-span">Подробнее</span></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="section-events__more-btn btn-reset btn js-show">Все события</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-editions" class="section-editions">
+      <div class="container section-editions__container">
+        <div class="section-editions__content-wrapper content-wrap">
+          <div class="section-editions__left-col section__left-col">
+            <h2 class="section-editions__title title-reset">Издания</h2>
+            <form class="section-editions__form editions-form" action="/" method="post">
+              <button class="editions-form__title btn-reset editions-form__js-check focus-effect" type="button"><span class="editions-form__title-span">Категории</span></button>
+
+              <div class="editions-form__categories-wrapper">
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="bestsellers">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Бестселлеры</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="art">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Искусство</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="architecture">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Архитектура</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="design" checked>
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Дизайн</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="fashion">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Мода</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="for-children">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Детям</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="artistic-literature">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Художественная литература</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="journalism">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Публицистика</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="travel-guides">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Путеводители</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="philosophy">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Философия</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="educational-literature">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Учебная литература</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+
+                  <label class="editions-form__checkbox-wrap">
+                    <input class="editions-form__checkbox visually-hidden" type="checkbox" name="magazines-and-newspapers">
+                    <span class="editions-form__checkbox-content">
+                      <span class="editions-form__visual-check"></span>
+                      <span class="editions-form__check-text">Журналы и газеты</span>
+                      <span class="editions-form__close-icon"></span>
+                    </span>
+                  </label>
+              </div>
+
+              <div class="editions-form__price-range flex">
+                <h3 class="editions-form__price-title title-reset">Цена</h3>
+                <div class="editions-form__price-wrapper flex">
+                  <p class="editions-form__price-text">От</p>
+                  <label class="editions-form__price-label">
+                    <span class="visually-hidden">Введите минимальную цену поиска</span>
+                    <input type="number" class="editions-form__price-input" name="price_min" min="1" placeholder="50">
+                  </label>
+                  <p class="editions-form__price-text">до</p>
+                  <label class="editions-form__price-label">
+                    <span class="visually-hidden">Введите максимальную цену поиска</span>
+                    <input type="number" class="editions-form__price-input" name="price_max" min="1" placeholder="25000">
+                  </label>
+                  <p class="editions-form__price-text">руб.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="section-editions__right-col section-swiper">
+            <div class="swiper-container section-editions__slides-container">
+              <div class="section-editions__navigation">
+                <button class="nav-btn section-editions__prev-btn prev-btn" aria-label="К предыдущему слайду"></button>
+                <div class="section-editions__pagination"></div>
+                <button class="nav-btn section-editions__next-btn next-btn" aria-label="К следующему слайду"></button>
+              </div>
+              <ul class="swiper-wrapper list-reset section-editions__swiper-wrapper">
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-01--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-01--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-01--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-01--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-01--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Искусство цвета</h3>
+                        <p class="editions-slide__content-text">Иттен, Иоханнес</p>
+                      </div>
+                      <p class="editions-slide__content-price">620 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-02--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-02--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-02--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-02--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-02--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Типографика</h3>
+                        <p class="editions-slide__content-text">Рудер, Эмиль</p>
+                      </div>
+                      <p class="editions-slide__content-price">2 450 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-03--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-03--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-03--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-03--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-03--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Книга про буквы</h3>
+                        <p class="editions-slide__content-text">Гордон, Юрий</p>
+                      </div>
+                      <p class="editions-slide__content-price">2 200 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-04--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-04--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-04--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-04--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-04--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Николай Ильин</h3>
+                        <p class="editions-slide__content-text">Кричевский, Владимир</p>
+                      </div>
+                      <p class="editions-slide__content-price">1 100 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-05--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-05--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-05--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-05--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-05--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Модульные сетки в граф...</h3>
+                        <p class="editions-slide__content-text">Мюллер-Брокманн, Йозеф</p>
+                      </div>
+                      <p class="editions-slide__content-price">1 450 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-06--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-06--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-06--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-06--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-06--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Эволюция графических ст...</h3>
+                        <p class="editions-slide__content-text">Хеллер, Чваст</p>
+                      </div>
+                      <p class="editions-slide__content-price">3 200 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+
+                <li class="swiper-slide section-editions__slide-item editions-slide flex">
+                  <div class="editions-slide__pic-wrapper">
+                    <picture class="editions-slide__picture">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-07--1024.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-07--768.jpg" media="(min-width: 768px) and (max-width: 1023px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-07--320.jpg" media="(max-width: 767px)">
+                      <source class="editions-slide__img" srcset="img/section-editions__pic-07--1920.jpg">
+                      <img class="editions-slide__img" src="img/section-editions__pic-07--1920.jpg" alt="pic">
+                    </picture>
+                  </div>
+                  <div class="editions-slide__content flex">
+                    <div class="editions-slide__content-wrapper flex">
+                      <div class="editions-slide__content-inner">
+                        <h3 class="editions-slide__content-title">Искусство и визуальное в...</h3>
+                        <p class="editions-slide__content-text">Арнхейм, Рудольф</p>
+                      </div>
+                      <p class="editions-slide__content-price">2 200 руб</p>
+                    </div>
+                    <button class="editions-slide__btn btn-reset">Заказать</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-projects" class="section-projects">
+      <div class="container section-projects__container">
+        <h2 class="section-projects__title title-reset">Проекты</h2>
+
+        <p class="section-projects__descr">
+          Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Прежде всего, постоянное информационно-пропагандистское
+          <button class="section-projects__tooltip btn-reset js-tooltip" data-tippy-content="Пример современных тенденций - современная методология разработки">i</button>
+          обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены
+          <button class="section-projects__tooltip btn-reset js-tooltip" data-tippy-content="Приятно, граждане, наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции">i</button>
+          исключительно в разрезе маркетинговых и финансовых
+          <button class="section-projects__tooltip btn-reset js-tooltip" data-tippy-content="В стремлении повысить качество">i</button>
+          предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости. Подробнее: <a href="#" class="section-projects__link focus-effect"><span class="section-projects__link-span">blanchard-art.ru/projects/about</span></a>
+        </p>
+
+        <h3 class="section-projects__subtitle title-reset">Партнёры проектов:</h3>
+
+        <div class="section-projects__slider-wrap section-projects__js-slider-main">
+          <div class="section-projects__slider section-projects__js-slider">
+            <ul class="section-projects__slides-wrapper section-projects__js-slides-wrap list-reset">
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__freelands--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__ica--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__workhouse--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__1849--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__hiscox--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__camden--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__stassen--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__watts--active.png" alt="logo">
+                </a>
+              </li>
+              <li class="section-projects__slide">
+                <a class="section-projects__slide-link" href="#">
+                  <img class="section-projects__slide-img" src="img/section-projects__esad--active.png" alt="logo">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-contacts" class="section-contacts">
+      <div class="container">
+        <h2 class="section-contacts__title title-reset">Контакты</h2>
+      </div>
+      <div class="section-contacts__wrapper">
+        <div class="container section-contacts__container flex">
+          <div class="section-contacts__content">
+            <h3 class="section-contacts__subtitle">Шоурум №4</h3>
+            <p class="section-contacts__subdescr">Леонтьевский переулок, дом 5/1</p>
+
+            <h4 class="section-contacts__subtitle-connection">Заказать обратный звонок</h4>
+            <form action="" class="section-contacts__form contacts-form flex">
+              <label class="contacts-form__label">
+                <span class="visually-hidden">Поле ввода имени</span>
+                <input type="text" name="name" placeholder="Имя*" class="contacts-form__input" data-validate-field="name">
+              </label>
+              <label class="contacts-form__label">
+                <span class="visually-hidden">Поле ввода телефона</span>
+                <input type="tel" name="tel" placeholder="Телефон*" class="contacts-form__input" data-validate-field="tel" data-validate-rules="phone">
+              </label>
+              <button aria-label="Отправить данные" class="btn btn-reset contacts-form__btn">Заказать</button>
+            </form>
+
+            <h4 class="section-contacts__subtitle-connection section-contacts__subtitle-social">Связаться в один клик</h4>
+            <ul class="section-contacts__connection-list list-reset flex">
+              <li class="section-contacts__social-item">
+                <a href="#" class="section-contacts__social-link"><img src="img/section-contacts__whatsapp.svg" alt="social logo" class="section-contacts__social-img"></a>
+              </li>
+              <li class="section-contacts__social-item">
+                <a href="#" class="section-contacts__social-link"><img src="img/section-contacts__telegram.svg" alt="social logo" class="section-contacts__social-img"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="section-contacts__map" id="map"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container flex">
+      <a href="#" class="footer__logo">
+        <img src="img/footer__logo.png" alt="logo">
+      </a>
+
+      <ul class="footer__social-link list-reset flex">
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M22.5 0C10.074 0 0 10.0736 0 22.5C0 34.9264 10.074 45 22.5 45C34.926 45 45 34.9264 45 22.5C45 10.0736 34.926 0 22.5 0ZM33.9132 24.9335C34.9619 25.9577 36.0714 26.9217 37.0128 28.0519C37.4299 28.5519 37.823 29.0688 38.1222 29.6503C38.5495 30.4794 38.1637 31.3886 37.4216 31.4379L32.812 31.4369C31.6215 31.5354 30.6741 31.0553 29.8754 30.2414C29.2378 29.5927 28.6462 28.8999 28.0321 28.2292C27.7812 27.9539 27.517 27.6947 27.2021 27.4907C26.5737 27.0819 26.0277 27.2072 25.6677 27.8636C25.3008 28.5316 25.217 29.2719 25.182 30.0153C25.1319 31.1022 24.8041 31.3863 23.7135 31.4374C21.3832 31.5465 19.1721 31.1929 17.117 30.0181C15.3041 28.9818 13.901 27.5193 12.6783 25.8634C10.2973 22.6353 8.47381 19.0924 6.8354 15.4478C6.46665 14.627 6.73642 14.1878 7.64194 14.1707C9.14639 14.1417 10.6508 14.1454 12.1553 14.1694C12.7676 14.179 13.1727 14.5294 13.4079 15.1071C14.2209 17.1074 15.2176 19.0105 16.4665 20.7755C16.7994 21.2455 17.1391 21.7142 17.623 22.0461C18.157 22.4125 18.5639 22.2915 18.8158 21.6953C18.9769 21.3164 19.0464 20.9113 19.0814 20.5053C19.2011 19.1145 19.2153 17.7242 19.0082 16.339C18.8793 15.4722 18.3918 14.9124 17.5277 14.7485C17.0876 14.6652 17.152 14.5022 17.3661 14.2508C17.7376 13.8163 18.0856 13.5474 18.7812 13.5474L23.9893 13.5465C24.8101 13.7076 24.9942 14.0759 25.1056 14.9027L25.1102 20.6903C25.1006 21.0103 25.2709 21.9586 25.8454 22.1681C26.3058 22.32 26.6096 21.9508 26.8849 21.6594C28.1339 20.334 29.0237 18.7697 29.8206 17.1506C30.1723 16.4366 30.4757 15.6978 30.7703 14.9575C30.9895 14.4101 31.3301 14.1408 31.9479 14.15L36.9631 14.156C37.1108 14.156 37.2609 14.1574 37.4073 14.1827C38.2525 14.3273 38.4841 14.6909 38.2226 15.5154C37.811 16.8109 37.0114 17.89 36.2297 18.9718C35.3919 20.1301 34.4983 21.2478 33.6687 22.4111C32.9064 23.4746 32.9667 24.01 33.9132 24.9335Z" fill="#CACACA"/>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.1172 22.5C18.1172 24.8785 20.0453 26.8066 22.4238 26.8066C24.8024 26.8066 26.7305 24.8785 26.7305 22.5C26.7305 20.1215 24.8024 18.1934 22.4238 18.1934C20.0453 18.1934 18.1172 20.1215 18.1172 22.5Z" fill="#CACACA"/>
+              <path d="M12.3521 14.8803C12.5591 14.3194 12.8894 13.8116 13.3185 13.3948C13.7353 12.9656 14.2428 12.6354 14.8041 12.4283C15.2593 12.2515 15.9432 12.0411 17.2029 11.9837C18.5655 11.9216 18.9741 11.9082 22.4238 11.9082C25.8738 11.9082 26.2824 11.9212 27.6447 11.9834C28.9044 12.0411 29.5886 12.2515 30.0435 12.4283C30.6048 12.6354 31.1126 12.9656 31.5291 13.3948C31.9582 13.8116 32.2885 14.319 32.4959 14.8803C32.6727 15.3356 32.8831 16.0198 32.9405 17.2795C33.0026 18.6418 33.016 19.0503 33.016 22.5004C33.016 25.9501 33.0026 26.3587 32.9405 27.7213C32.8831 28.981 32.6727 29.6649 32.4959 30.1201C32.2885 30.6814 31.9586 31.1889 31.5294 31.6057C31.1126 32.0348 30.6052 32.3651 30.0438 32.5721C29.5886 32.7493 28.9044 32.9597 27.6447 33.0171C26.2824 33.0792 25.8742 33.0922 22.4241 33.0922C18.9737 33.0922 18.5652 33.0792 17.2032 33.0171C15.9436 32.9597 15.2593 32.7493 14.8041 32.5721C13.6773 32.1375 12.7867 31.2469 12.3521 30.1201C12.1753 29.6649 11.9648 28.981 11.9071 27.7213C11.845 26.3587 11.8319 25.9501 11.8319 22.5004C11.8319 19.0503 11.845 18.6418 11.9071 17.2795C11.9645 16.0198 12.1749 15.3356 12.3521 14.8803ZM22.4238 29.1344C26.0881 29.1344 29.0585 26.1643 29.0585 22.5001C29.0585 18.8358 26.0881 15.8657 22.4238 15.8657C18.7599 15.8657 15.7894 18.8358 15.7894 22.5001C15.7894 26.1643 18.7599 29.1344 22.4238 29.1344ZM15.5271 17.1538C16.3834 17.1538 17.0776 16.4596 17.0776 15.6034C17.0776 14.7471 16.3834 14.0529 15.5271 14.0529C14.6709 14.0529 13.9767 14.7471 13.9767 15.6034C13.977 16.4596 14.6709 17.1538 15.5271 17.1538Z" fill="#CACACA"/>
+              <path d="M22.6204 0C34.9364 0 44.9238 9.98747 44.9238 22.3034C44.9238 34.6194 34.9364 44.6069 22.6204 44.6069C10.3044 44.6069 0.316959 34.6194 0.316959 22.3034C0.316959 9.98747 10.3044 0 22.6204 0ZM9.89059 27.5836C9.95253 28.9469 10.1693 29.8777 10.4858 30.6924C11.1512 32.4127 12.5111 33.7727 14.2314 34.438C15.0458 34.7545 15.9769 34.971 17.3399 35.0332C18.7057 35.0955 19.1419 35.1105 22.6201 35.1105C26.0985 35.1105 26.5345 35.0955 27.9005 35.0332C29.2635 34.971 30.1946 34.7545 31.009 34.438C31.8639 34.1164 32.6378 33.6124 33.2776 32.9607C33.929 32.3212 34.433 31.547 34.7546 30.6924C35.0711 29.878 35.2879 28.9469 35.3498 27.5839C35.4128 26.2178 35.4274 25.7815 35.4274 22.3034C35.4274 18.8253 35.4128 18.389 35.3502 17.0233C35.2883 15.66 35.0718 14.7292 34.7553 13.9145C34.4337 13.0599 33.9293 12.2857 33.2776 11.6462C32.6382 10.9945 31.8639 10.4905 31.0094 10.1689C30.1946 9.85236 29.2638 9.63592 27.9005 9.57364C26.5348 9.51136 26.0985 9.49638 22.6204 9.49638C19.1423 9.49638 18.706 9.51136 17.3403 9.57398C15.9769 9.63592 15.0462 9.85236 14.2314 10.1685C13.3769 10.4901 12.6026 10.9945 11.9628 11.6462C11.3114 12.286 10.8071 13.0599 10.4858 13.9145C10.169 14.7292 9.95253 15.66 9.89025 17.0233C9.82798 18.389 9.81334 18.8253 9.81334 22.3034C9.81334 25.7815 9.82798 26.2178 9.89059 27.5836Z" fill="#CACACA"/>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.5 0C10.125 0 0 10.1431 0 22.6355C0 33.9307 8.23499 43.3057 18.99 45V29.1867H13.275V22.6355H18.99V17.6431C18.99 11.9729 22.3425 8.85542 27.495 8.85542C29.9475 8.85542 32.5125 9.28464 32.5125 9.28464V14.8645H29.6775C26.8875 14.8645 26.01 16.6039 26.01 18.3886V22.6355H32.265L31.2525 29.1867H26.01V45C31.312 44.1593 36.1399 41.4432 39.6223 37.342C43.1047 33.2408 45.012 28.0248 44.9999 22.6355C44.9999 10.1431 34.875 0 22.5 0Z" fill="#CACACA"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script src="js/header__dropdown.js"></script>
+  <!-- <script src="js/section-hero__swiper.js"></script> -->
+  <script src="js/choices.min.js"></script>
+  <script src="js/section-gallery.js"></script>
+  <script src="js/section-catalog.js"></script>
+  <script src="js/section-events.js"></script>
+  <script src="js/section-editions.js"></script>
+  <script src="js/section-projects.js"></script>
+  <script src="js/section-contacts.js"></script>
+
+</body>
+</html>
