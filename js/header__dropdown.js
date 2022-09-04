@@ -1,5 +1,6 @@
 const params = {
   btnClassName: "header-bottom__item-btn",
+  dropClassName: "header-bottom__dropdown",
   activeClassName: "is-active",
   disabledClassName: "is-disabled"
 }

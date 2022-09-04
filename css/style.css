@@ -3815,7 +3815,7 @@ body {
   }
 }
 
-/* @keyframes resize {
+@keyframes resize {
   0% {
     transform: scale(1);
   }
@@ -3823,4 +3823,4 @@ body {
   100% {
     transform: scale(1.1);
   }
-} */
+}
